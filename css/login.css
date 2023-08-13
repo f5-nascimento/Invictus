@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    background: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    color:#888586;
+}
+
+
+.textfield > input{
+    width: 100%;
+    border: none;
+    padding: 15px;
+    background: #888586;
+    color: #f3f3f3;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    border: 2px solid transparent;
+
+}
+
+.textfield > input::placeholder{
+    color: #f3f3f3;
+}
+
+input:focus{
+    border-color: #f3f3f3;
+}
+
+a{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.btn-login{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 4px;
+    color: #f3f3f3;;
+    background: #888586;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00008052;
+
+}
+
+.btn-login:hover{
+    transition: background 1s;
+    background: #23b872;
+}
+

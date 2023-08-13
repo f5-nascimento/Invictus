@@ -16,63 +16,30 @@
       href="assets/info-circle-fill.svg"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/login.css" />
   </head>
   <body>
-    <nav class="menu-lateral">
-      <div class="expandir">
-          <i class="bi bi-info-circle-fill"></i>
-          <span class="text-list">INVICTUS</span>
-      </div>
-
-      <ul>
-        <li class="item-menu ativo">
-          <a class="icones" href="#">
-            <span class="icon-list"><i class="bi bi-house-door-fill"></i></span>
-            <span class="text-list">Home</span>
-          </a>
-        </li>
-        <li class="item-menu">
-          <a class="icones" href="#">
-            <span class="icon-list"><i class="bi bi-bar-chart"></i></span>
-            <span class="text-list">Dashboard</span>
-          </a>
-        </li>
-        <li class="item-menu">
-          <div class="clientes">
-            <a href="#">
-              <span class="icon-list"><i class="bi bi-person-circle"></i></span>
-              <span class="text-list">Cliente</span>
-              <i class="bi bi-arrow-down-short" id="i-clientes"></i>
-            </a>
-          
-          <ul class="sub-menu">
-            <li><a href="#">Consultar Cliente</a></li>
-            <li><a href="#">Cadastrar Cliente</a></li>
-          </ul>
-        </div>
-        </li>
-        <li class="item-menu">
-          <a href="#">
-            <span class="icon-list"><i class="bi bi-box-seam-fill"></i></span>
-            <span class="text-list">Estoque</span>
-          </a>
-        </li>
-        <li class="item-menu">
-          <a href="#">
-            <span class="icon-list"><i class="bi bi-bank2"></i></span>
-            <span class="text-list">Financeiro</span>
-          </a>
-        </li>
-      </ul>
-    </nav>
-
-    <form>
-
+    <main>
       
+        <div class="form">
+          <h1>Log in to Invictus</h1>
 
-    </form>
+          <div class="textfield">
+            <i class="bi bi-envelope"></i>
+            <input id="usuario" type="text" placeholder="Usuário" />
+          </div>
 
-    <script src="js/menu.js"></script>
+          <div class="textfield">
+            <i class="bi bi-lock"></i>
+            <input id="senha" type="password" placeholder="Senha" />
+          </div>
+
+          <a href="page.html">
+            <button class="btn-login" type="submit"
+            >Log in</button>
+         </a>
+
+      </div>
+    </main>
   </body>
 </html>

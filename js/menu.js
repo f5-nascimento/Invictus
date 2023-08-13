@@ -10,3 +10,4 @@ function selectLink(){
 menuItem.forEach((item)=>
     item.addEventListener('click', selectLink)
 )
+
