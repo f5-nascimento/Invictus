@@ -8,25 +8,36 @@
 }
 
 main{
+    
     width: 100vw;
     height: 100vh;
     background: #f3f3f3;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.form{
-    
-    padding: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    flex-direction: inline;
+     
 }
 
 h1{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color:#888586;
+}
+
+.textfield{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: inline;
+    padding: 10px;
+}
+
+.textfield > i{
+    font-size: 18pt;
+    color: #888586;
 }
 
 
@@ -34,6 +45,7 @@ h1{
     width: 100%;
     border: none;
     padding: 15px;
+    margin-left: 10px;
     background: #888586;
     color: #f3f3f3;
     font-size: 12pt;
@@ -58,6 +70,7 @@ a{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-decoration: none;
 
 }
 
