@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: #f3f3f3;
+}
+
+nav{
+    
+    width: 20vw;
+    /*width: 5vw;*/
+    height: 100vh;
+    background: #888586;
+    color: #cfcfcf;
+    padding: 40px 0 40px 10px;
+    box-shadow: 3px 0 0 #5b5859;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+
+}
+
+/*
+nav:hover{
+    width: 20vw;
+    transition: .2;
+
+}*/
+
+.expandir{
+    
+    width: 100%;
+    padding-left: 10px;
+}
+
+.expandir > i{
+    color: #cfcfcf;
+    font-size: 18pt;
+    cursor: pointer;
+}
+
+ul{
+    
+    height: 100%;
+    list-style-type: none;
+
+}
+
+.item-menu > a{
+    color: #f3f3f3;
+    text-decoration: none;
+    font-size: 14pt;
+    padding: 20px 10px 20px 10px;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+
+.div-menu > a{
+    color: #f3f3f3;
+    text-decoration: none;
+    font-size: 14pt;
+    padding: 20px 10px 20px 10px;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+
+.div-menu > a:hover{
+    background: #5b5859;
+    transition: background 2s;
+}
+
+.item-menu > a:hover{
+    background: #5b5859;
+    transition: background 2s;
+}
+
+.ativo{
+    background: #5b5859;
+}
+
+.icon-list > i{
+    
+    font-size: 18pt;
+
+}
+
+.text-list{
+    margin-left: 20px;
+}
+
+.div-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
