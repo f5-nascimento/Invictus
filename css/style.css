@@ -65,25 +65,34 @@ ul{
     line-height: 40px;
 }
 
-.div-menu > a{
+.item-menu > a:hover{
+    background: #5b5859;
+    transition: background 2s;
+}
+
+.clientes > a{
+    
     color: #f3f3f3;
     text-decoration: none;
     font-size: 14pt;
     padding: 20px 10px 20px 10px;
     display: flex;
-    margin-bottom: 20px;
     line-height: 40px;
+    display: flex;
+    align-items: center;
 }
 
-.div-menu > a:hover{
+.clientes > a:hover{
     background: #5b5859;
     transition: background 2s;
 }
 
-.item-menu > a:hover{
-    background: #5b5859;
-    transition: background 2s;
+#i-clientes{
+   
+   padding-left: 60px;
+   font-size: 18pt;
 }
+
 
 .ativo{
     background: #5b5859;
@@ -99,9 +108,10 @@ ul{
     margin-left: 20px;
 }
 
-.div-menu{
+.sub-menu li a{
+    color: #f3f3f3;
+    text-decoration: none;
+    font-size: 12pt;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    padding: 0px 10px 20px 40px;
 }
-
