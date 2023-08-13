@@ -40,10 +40,17 @@ nav:hover{
     
     width: 100%;
     padding-left: 10px;
+    margin-bottom: 20px;
 }
 
 .expandir > i{
     color: #cfcfcf;
+    font-size: 18pt;
+    cursor: pointer;
+}
+
+.expandir > span{
+    color: #f3f3f3;
     font-size: 18pt;
     cursor: pointer;
 }
