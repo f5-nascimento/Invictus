@@ -15,7 +15,7 @@
     left: 0;
     height: 100%;
     width: 260px;
-    background: #888586;
+    background: #006464;
     z-index: 100;
     transition: all 0.5s ease;
    
@@ -98,7 +98,7 @@
 
 .slidebar .nav-links li:hover{
     
-    background: #1d1b31;
+    background: #23b872;
     
 }
 
@@ -169,7 +169,7 @@
 
   padding: 6px 6px 14px 80px;
   margin-top: -10px;
-  background: #1d1b31;
+  background: #006464;
   display: none;
    
 }
@@ -178,7 +178,7 @@
 
     padding: 6px 6px 14px 80px;
     margin-top: -10px;
-    background: #1d1b31;
+    background: #006464;
     display: block;
      
   }

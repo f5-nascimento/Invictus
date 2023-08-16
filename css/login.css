@@ -9,14 +9,25 @@
 
 main{
     
+  
     width: 100vw;
     height: 100vh;
     background: #f3f3f3;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: inline;
+    flex-direction: column;
      
+}
+
+form{
+
+    width: 40%;
+    height: 50%;
+    background: #006464;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+
 }
 
 h1{
@@ -24,7 +35,10 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    color:#888586;
+    color: #f3f3f3;
+    font-size: 24pt;
+    margin: 10px 10px 10px 10px;
+    font-weight: 700;
 }
 
 .textfield{
@@ -37,7 +51,7 @@ h1{
 
 .textfield > i{
     font-size: 18pt;
-    color: #888586;
+    color: #f3f3f3;
 }
 
 
@@ -46,7 +60,7 @@ h1{
     border: none;
     padding: 15px;
     margin-left: 10px;
-    background: #888586;
+    background: #adaaab;
     color: #f3f3f3;
     font-size: 12pt;
     box-shadow: 0px 10px 40px #00000056;
@@ -65,15 +79,16 @@ input:focus{
 
 .btn-login{
     width: 100%;
-    padding: 16px 0px;
-    margin: 25px;
+    padding: 10px;
+    font-size: 14pt;
+    margin: 20px 0 0 0;
     border: none;
     border-radius: 8px;
     outline: none;
     text-transform: uppercase;
     font-weight: 800;
     letter-spacing: 4px;
-    color: #f3f3f3;;
+    color: #f3f3f3;
     background: #888586;
     cursor: pointer;
     box-shadow: 0px 10px 40px -12px #00008052;
