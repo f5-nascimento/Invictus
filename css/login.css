@@ -24,7 +24,7 @@ form{
 
     width: 40%;
     height: 50%;
-    background: #363636;
+    background: #343a40;
     padding: 10px 20px 10px 20px;
     border-radius: 5px;
 
@@ -37,7 +37,7 @@ h1{
     align-items: center;
     color: #fff;
     font-size: 24pt;
-    margin: 10px 10px 10px 10px;
+    margin: 15px 10px 15px 10px;
     font-weight: 700;
 }
 
@@ -47,11 +47,15 @@ h1{
     align-items: center;
     flex-direction: inline;
     padding: 10px;
+    position: relative;
 }
 
 .textfield > i{
     font-size: 18pt;
-    color: #fff;
+    color: #343a40;
+    position: absolute;
+    width: 90%;
+    padding-left: 10px;
 }
 
 
@@ -61,26 +65,31 @@ h1{
     padding: 15px;
     margin-left: 10px;
     background: #f3f3f3;
-    color: #000;
+    color: #343a40;
     font-size: 12pt;
     outline: none;
     border: 2px solid transparent;
-
+    
 }
 
+
+
 .textfield > input::placeholder{
-    color: #000;
+    color: #343a40;
+    padding-left: 40px;
 }
 
 input:focus{
     border-color: #f3f3f3;
+    padding-left: 40px;
+   
 }
 
 .btn-login{
-    width: 100%;
+    width: 80%;
     padding: 10px;
     font-size: 14pt;
-    margin: 20px 0 0 0;
+    margin: 20px 0 0 50px;
     border: none;
     border-radius: 4px;
     outline: none;
