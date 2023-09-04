@@ -323,3 +323,141 @@
    
 }
 
+
+/*
+css do cliente -teste api
+
+*/
+:root{
+    --bg-color: #04044c;
+    --secondary-bg-color:#494a7d;
+    --primary-color: #fff;
+    --secondary-color: #25cc88;
+    --text-color: #8789af;
+    --border-color: #20235b;
+}
+
+/*
+#fade{
+    position: fixed;
+    top: 10%;
+    left: 10%;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+
+}
+*/
+
+#fade .spinner-border{
+    width: 60px;
+    height: 60px;
+}
+
+.hide{
+    display: none;
+}
+
+#message{
+    width: 40%;
+}
+
+.alert.alert-light p{
+    border-bottom: 1px solid #333;
+    padding: 1.2em 0;
+}
+
+#order-form-container {
+    padding: 1.5em;
+    max-width: 700px;
+  }
+
+#steps{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--border-color);
+    position: relative;
+}
+
+.step{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+}
+
+.step i{
+   background-color: var(--secondary-bg-color);
+   width: 45px;
+   height: 45px;
+   line-height: 45px;
+   border-radius: 50%;
+   font-size: 1.2em;
+   text-align: center;
+   margin-bottom: 0.3em;
+   color: #fff;
+
+}
+
+.step .active{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+.step p{
+    color: var(--text-color);
+ 
+ }
+
+ .line{
+    border-bottom: 1px solid var(--border-color);
+    position: absolute;
+    top: 22.5px;
+    width: 100%;
+}
+
+.form-header p{
+    color: var(--text-color);
+}
+
+#order-form-container input,
+#order-form-container select{
+    border: 2px solid var(--border-color-color);
+    color: var(--primary-color);
+} 
+
+#order-form-container select{
+    padding: 1rem .75rem;
+} 
+
+#order-form-container label{
+    color: var(--text-color);
+    left: 1em;
+} 
+
+#order-form-container input:disabled,
+#order-form-container select:disabled{
+    background: var(--secondary-bg-color);
+    color: var(--text-color);
+} 
+
+#order-form-container input:focus{
+    border-color: var(--secondary-color);
+} 
+
+#save-btn{
+    background-color: #25cc88;
+    border: none;
+    height: 3em;
+    width: 8em;
+    border-radius: 1.5em;
+}
+
+.form-control{
+    color: #1d1b31;
+}
