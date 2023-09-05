@@ -47,15 +47,18 @@ h1{
     align-items: center;
     flex-direction: inline;
     padding: 10px;
-    position: relative;
+    /*position: relative;*/
 }
 
 .textfield > i{
     font-size: 18pt;
-    color: #343a40;
-    position: absolute;
-    width: 90%;
-    padding-left: 10px;
+    /*color: #343a40;*/
+    color: #fff;
+    /*position: absolute;*/
+    /*width: 90%;*/
+    padding-right: 5px;
+    /*padding-left: 10px;*/
+ 
 }
 
 
@@ -63,7 +66,7 @@ h1{
     width: 100%;
     border: none;
     padding: 15px;
-    margin-left: 10px;
+    /*margin-left: 10px;*/
     background: #f3f3f3;
     color: #343a40;
     font-size: 12pt;
@@ -76,12 +79,12 @@ h1{
 
 .textfield > input::placeholder{
     color: #343a40;
-    padding-left: 40px;
+   /* padding-left: 40px;*/
 }
 
 input:focus{
     border-color: #f3f3f3;
-    padding-left: 40px;
+    /*padding-left: 40px;*/
    
 }
 

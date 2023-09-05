@@ -353,6 +353,7 @@ css do cliente -teste api
 }
 */
 
+
 #fade .spinner-border{
     width: 60px;
     height: 60px;
@@ -428,7 +429,7 @@ css do cliente -teste api
 #order-form-container input,
 #order-form-container select{
     border: 2px solid var(--border-color-color);
-    color: var(--primary-color);
+    color: #000;
 } 
 
 #order-form-container select{
@@ -460,4 +461,8 @@ css do cliente -teste api
 
 .form-control{
     color: #1d1b31;
+}
+
+#cep::placeholder{
+color: #04044c;
 }
