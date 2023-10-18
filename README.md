@@ -22,7 +22,7 @@ O principal objetivo deste projeto é criar uma página inicial atraente e funci
 Durante o desenvolvimento deste projeto, enfrentamos e superamos os seguintes desafios:
 
 - Organização de um menu lateral utizando sandwich.
-- Criação de estrutura a partir de evento.
+- Atualização de Divs a partir de evento.
 - Consulta a API do Via Cep.
 
 ## Preview
